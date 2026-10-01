@@ -1,6 +1,6 @@
 {
   "name": "http-cache-lite",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Lightweight, framework-friendly HTTP response caching for Node.js/TypeScript with TTL, LRU, tags, ETag, Cache-Control, SWR and request deduplication.",
   "keywords": [
     "http",
