@@ -30,17 +30,29 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
+      "types": {
+        "import": "./dist/index.d.ts",
+        "require": "./dist/index.d.cts",
+        "default": "./dist/index.d.ts"
+      },
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
     "./express": {
-      "types": "./dist/middleware.d.ts",
+      "types": {
+        "import": "./dist/middleware.d.ts",
+        "require": "./dist/middleware.d.cts",
+        "default": "./dist/middleware.d.ts"
+      },
       "import": "./dist/middleware.js",
       "require": "./dist/middleware.cjs"
     },
     "./storage": {
-      "types": "./dist/storage/index.d.ts",
+      "types": {
+        "import": "./dist/storage/index.d.ts",
+        "require": "./dist/storage/index.d.cts",
+        "default": "./dist/storage/index.d.ts"
+      },
       "import": "./dist/storage/index.js",
       "require": "./dist/storage/index.cjs"
     },
